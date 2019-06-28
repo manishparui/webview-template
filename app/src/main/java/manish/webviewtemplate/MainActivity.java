@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        url = "http://madmanish.com";
+
+        url = "http://madmanish.com"; //web site's url
         xWebView = (WebView) findViewById(R.id.xWebView);
 
         xWebView.getSettings().setJavaScriptEnabled(true);
